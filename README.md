@@ -1,4 +1,4 @@
-# iris_predictor
+# Iris Predictor using Flutter, Flask and Scikit-Learn
 
 Iris Predictor using Flask, Flutter & Sciikit-Learn
 
