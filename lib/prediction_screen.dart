@@ -81,8 +81,8 @@ class _PredictorState extends State<Predictor> {
                       //String featureString = makeStringOfFeatures(sl, sw, pl, pw);
                       // var data = await getData('http://10.0.2.2:5000/api?query=' +featureString);
                       var data = await getData('http://10.0.2.2:5000/api?sl=$sl&sw=$sw&pl=$pl&pw=$pw');
-                      var decoded_data = jsonDecode(data);
-                      showAlertDialog(context, decoded_data['query']);
+                      var decodedData = jsonDecode(data);
+                      showAlertDialog(context, decodedData['query']);
                     },
                   child: Text(
                     'Predict name!',
