@@ -5,12 +5,15 @@ Iris Predictor using Flask, Flutter & Sciikit-Learn
 # Technologies
 
 >* Flutter
->* Scikit-Learn
 >* Flask
 
 # Languages
 
 >* Python
 >* Dart
+
+# Libraries
+
+>* Scikit-Learn
 
 All rights reserved
